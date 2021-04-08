@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyButton">
+        <attr name="mb_textColor" format="color"/>
+        <attr name="mb_textSize" format="dimension"/>
+        <attr name="mb_text" format="string"/>
+        <attr name="mb_textAllCaps" format="boolean"/>
+        <attr name="mb_leftIcon" format="integer"/>
+        <attr name="mb_rightIcon" format="integer"/>
+        <attr name="mb_iconSize" format="integer">
+            <flag name="md" value="0"/>
+            <flag name="sm" value="1"/>
+            <flag name="lg" value="2"/>
+        </attr>
+        <attr name="mb_shadowColor" format="color"/>
+        <attr name="mb_shadowSize" format="dimension"/>
+        <attr name="mb_shadowEnable" format="boolean"/>
+        <attr name="mb_bgColor" format="color"/>
+        <attr name="mb_bgColor2" format="color"/>
+        <attr name="mb_colorState" format="integer"/>
+        <attr name="mb_cornerRadius" format="dimension"/>
+        <attr name="mb_outlined" format="boolean"/>
+        <attr name="mb_font_bold" format="boolean"/>
+        <attr name="mb_enable" format="boolean"/>
+        <attr name="mb_loadingIndicator" format="string"/>
+        <attr name="mb_isLoading" format="boolean"/>
+        <attr name="mb_pushDownAnim" format="boolean"/>
+        <attr name="mb_pushDownAnimScale" format="float"/>
+    </declare-styleable>
+
+    <dimen name="my_btn_text_size_default">15sp</dimen>
+    <dimen name="my_btn_shadow_size_default">@dimen/xs</dimen>
+    <dimen name="my_btn_icon_size_default">@dimen/x5l</dimen>
+    <dimen name="my_btn_progress_view_size_default">@dimen/x5l</dimen>
+    <dimen name="my_btn_corner_radius">@dimen/sm</dimen>
+    <dimen name="my_btn_stroke_width_def">@dimen/xs</dimen>
+    <dimen name="my_btn_padding_top_bottom_default">@dimen/md</dimen>
+
+    <color name="my_btn_text_color_default">@color/md_white_1000</color>
+    <color name="my_btn_shadow_color_default">@color/md_orange_800</color>
+
+</resources>

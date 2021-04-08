@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MySpinnerView">
+        <attr name="msv_bgColor" format="color"/>
+        <attr name="msv_textColor" format="color"/>
+        <attr name="msv_cornerRadius" format="dimension"/>
+        <attr name="msv_borderColor" format="color"/>
+        <attr name="msv_text" format="string"/>
+        <attr name="msv_textSize" format="dimension"/>
+        <attr name="msv_expanded" format="boolean"/>
+        <attr name="msv_bgColorState" format="integer"/>
+        <attr name="msv_iconSize" format="color"/>
+        <attr name="msv_hint" format="string"/>
+        <attr name="msv_hintColor" format="color"/>
+        <attr name="msv_icon" format="integer"/>
+        <attr name="msv_iconFixed" format="boolean"/>
+        <attr name="msv_iconColor" format="dimension"/>
+        <attr name="msv_popup_offsetVertical" format="dimension"/>
+        <attr name="msv_popup_offsetVertical_screenHeight_percent" format="float"/>
+        <attr name="msv_popup_anchor_gravity" format="integer">
+            <flag name="none" value="0"/>
+            <flag name="top" value="1"/>
+            <flag name="bottom" value="2"/>
+        </attr>
+        <attr name="android:entries"/>
+        <attr name="msv_textBold" format="boolean"/>
+        <attr name="msv_round_corner_type" format="integer">
+            <flag name="top_left" value="1"/>
+            <flag name="top_right" value="2"/>
+            <flag name="bottom_right" value="4"/>
+            <flag name="bottom_left" value="8"/>
+            <flag name="right" value="6"/>
+            <flag name="left" value="9"/>
+            <flag name="top" value="3"/>
+            <flag name="bottom" value="12"/>
+            <flag name="all" value="15"/>
+        </attr>
+    </declare-styleable>
+
+    <color name="msv_text_color_default">@android:color/black</color>
+    <dimen name="msv_icon_size_default">@dimen/text_lg</dimen>
+    <dimen name="msv_corner_radius_default">@dimen/md_lg</dimen>
+    <color name="msv_bg_color_default">#f8f8f8</color>
+    <color name="msv_border_color_default">#f0f2f7</color>
+    <dimen name="msv_padding_top_default">@dimen/xs</dimen>
+    <dimen name="msv_padding_bottom_default">@dimen/xs</dimen>
+    <dimen name="msv_padding_right_left_default">@dimen/xl</dimen>
+
+</resources>

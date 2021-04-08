@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="joda_relative_time_suffix">
+        <item> years ago</item>
+        <item> month ago</item>
+        <item> weeks ago</item>
+        <item> days ago</item>
+        <item> hours ago</item>
+        <item> minutes ago</item>
+        <item> just now</item>
+        <item> yesterday</item>
+        <item> two days ago</item>
+    </string-array>
+</resources>

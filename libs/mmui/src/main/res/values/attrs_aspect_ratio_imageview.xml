@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="myiv">
+        <attr name="aspect_w" format="integer"/>
+        <attr name="aspect_h" format="integer"/>
+        <attr name="calc_by_w" format="boolean"/>
+        <attr name="center_crop" format="boolean"/>
+    </declare-styleable>
+
+</resources>

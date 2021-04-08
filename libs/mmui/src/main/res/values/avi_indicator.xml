@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="avi_BallPulseIndicator">BallPulseIndicator</string>
+    <string name="avi_BallGridPulseIndicator">BallGridPulseIndicator</string>
+    <string name="avi_BallClipRotateIndicator">BallClipRotateIndicator</string>
+    <string name="avi_BallClipRotatePulseIndicator">BallClipRotatePulseIndicator</string>
+    <string name="avi_SquareSpinIndicator">SquareSpinIndicator</string>
+    <string name="avi_BallClipRotateMultipleIndicator">BallClipRotateMultipleIndicator</string>
+    <string name="avi_BallPulseRiseIndicator">BallPulseRiseIndicator</string>
+    <string name="avi_BallRotateIndicator">BallRotateIndicator</string>
+    <string name="avi_CubeTransitionIndicator">CubeTransitionIndicator</string>
+    <string name="avi_BallZigZagIndicator">BallZigZagIndicator</string>
+    <string name="avi_BallZigZagDeflectIndicator">BallZigZagDeflectIndicator</string>
+    <string name="avi_BallTrianglePathIndicator">BallTrianglePathIndicator</string>
+    <string name="avi_BallScaleIndicator">BallScaleIndicator</string>
+    <string name="avi_LineScaleIndicator">LineScaleIndicator</string>
+    <string name="avi_LineScalePartyIndicator">LineScalePartyIndicator</string>
+    <string name="avi_BallScaleMultipleIndicator">BallScaleMultipleIndicator</string>
+    <string name="avi_BallPulseSyncIndicator">BallPulseSyncIndicator</string>
+    <string name="avi_BallBeatIndicator">BallBeatIndicator</string>
+    <string name="avi_LineScalePulseOutIndicator">LineScalePulseOutIndicator</string>
+    <string name="avi_LineScalePulseOutRapidIndicator">LineScalePulseOutRapidIndicator</string>
+    <string name="avi_BallScaleRippleIndicator">BallScaleRippleIndicator</string>
+    <string name="avi_BallScaleRippleMultipleIndicator">BallScaleRippleMultipleIndicator</string>
+    <string name="avi_BallSpinFadeLoaderIndicator">BallSpinFadeLoaderIndicator</string>
+    <string name="avi_LineSpinFadeLoaderIndicator">LineSpinFadeLoaderIndicator</string>
+    <string name="avi_TriangleSkewSpinIndicator">TriangleSkewSpinIndicator</string>
+    <string name="avi_PacmanIndicator">PacmanIndicator</string>
+    <string name="avi_BallGridBeatIndicator">BallGridBeatIndicator</string>
+    <string name="avi_SemiCircleSpinIndicator">SemiCircleSpinIndicator</string>
+</resources>

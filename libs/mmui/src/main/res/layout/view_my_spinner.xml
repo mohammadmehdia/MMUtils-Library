@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/msv_padding_top_default"
+    android:paddingBottom="@dimen/msv_padding_bottom_default"
+    android:paddingRight="@dimen/msv_padding_right_left_default"
+    android:paddingLeft="@dimen/msv_padding_right_left_default">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="@dimen/msv_icon_size_default"
+        android:layout_height="@dimen/msv_icon_size_default"
+        android:scaleType="fitCenter"
+        android:layout_gravity="end|center_vertical"
+        app:tint="@color/msv_text_color_default"
+        app:srcCompat="@drawable/ic_arrow_down"
+        />
+
+    <ir.armiuni.hokm.ui.helper.MyTextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@color/msv_text_color_default"
+        android:textSize="@dimen/text_size_xl"
+        android:lines="1" android:maxLines="1"
+        android:layout_gravity="start|center_vertical"
+        android:gravity="start|center_vertical"
+        android:layout_marginEnd="@dimen/xl"
+        />
+
+</merge>

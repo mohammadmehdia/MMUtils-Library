@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="cardex">
+        <attr name="cardex_circle_corners" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyTextView">
+        <attr name="mytv_isBold" format="boolean"/>
+        <attr name="enDebug" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="BlurryImageView">
+        <attr name="blurry_imageUrl" format="string"/>
+        <attr name="blurry_radius" format="integer"/>
+        <attr name="blurry_sampling" format="integer"/>
+        <attr name="blurry_crossfade" format="integer"/>
+        <attr name="blurry_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyTabLayout">
+        <attr name="tablayout_iconOnly" format="boolean"/>
+        <attr name="tablayout_icons" format="reference"/>
+        <attr name="tablayout_iconSelectedColor" format="color"/>
+        <attr name="tablayout_iconColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="ViewPagerEx">
+        <attr name="vpager_pageTransformation" format="integer">
+            <flag name="disable" value="0"/>
+            <flag name="cardScale" value="1"/>
+        </attr>
+        <attr name="vpager_pageMargin" format="dimension"/>
+        <attr name="vpager_cardScale_baseElevation" format="dimension"/>
+        <attr name="vpager_cardScale_raisingElevation" format="dimension"/>
+        <attr name="vpager_cardScale_scaleFactor" format="float"/>
+    </declare-styleable>
+
+    <!--    BottomNavigationEX-->
+    <declare-styleable name="BottomNavigationEx">
+        <attr name="nbavex_curveRadius" format="dimension"/>
+        <attr name="nbavex_bgColor" format="color"/>
+    </declare-styleable>
+    <dimen name="nbavex_curve_radius_default">40dp</dimen>
+
+    <!--   NavDrawerMenuItem -->
+    <declare-styleable name="NavDrawerMenuItemView">
+        <attr name="navditem_icon" format="integer"/>
+        <attr name="navditem_text" format="string"/>
+        <attr name="navditem_iconColor" format="color"/>
+        <attr name="navditem_textColor" format="color"/>
+        <attr name="navditem_bgColor" format="color"/>
+        <attr name="navditem_selected" format="boolean"/>
+        <attr name="navditem_textSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>
