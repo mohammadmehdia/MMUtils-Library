@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <attr name="textColor50" format="reference|color"/>
+        <attr name="textColor100" format="reference|color"/>
+        <attr name="textColor200" format="reference|color"/>
+        <attr name="textColor300" format="reference|color"/>
+        <attr name="textColor400" format="reference|color"/>
+        <attr name="textColor500" format="reference|color"/>
+        <attr name="textColor600" format="reference|color"/>
+        <attr name="textColor700" format="reference|color"/>
+        <attr name="textColor800" format="reference|color"/>
+        <attr name="textColor900" format="reference|color"/>
+        <attr name="textColor1000" format="reference|color"/>
+        <attr name="textColor1100" format="reference|color"/>
+
+        <attr name="basicColor50" format="reference|color"/>
+        <attr name="basicColor100" format="reference|color"/>
+        <attr name="basicColor200" format="reference|color"/>
+        <attr name="basicColor300" format="reference|color"/>
+        <attr name="basicColor400" format="reference|color"/>
+        <attr name="basicColor500" format="reference|color"/>
+        <attr name="basicColor600" format="reference|color"/>
+        <attr name="basicColor700" format="reference|color"/>
+        <attr name="basicColor800" format="reference|color"/>
+        <attr name="basicColor900" format="reference|color"/>
+        <attr name="basicColor1000" format="reference|color"/>
+        <attr name="basicColor1100" format="reference|color"/>
+
+        <attr name="basicBgColor1" format="reference|color"/>
+        <attr name="basicBgColor2" format="reference|color"/>
+        <attr name="basicBgColor3" format="reference|color"/>
+        <attr name="basicBgColor4" format="reference|color"/>
+        <attr name="basicBgColor5" format="reference|color"/>
+
+        <attr name="basicTransparentColor100" format="reference|color"/>
+        <attr name="basicTransparentColor200" format="reference|color"/>
+        <attr name="basicTransparentColor300" format="reference|color"/>
+        <attr name="basicTransparentColor400" format="reference|color"/>
+        <attr name="basicTransparentColor500" format="reference|color"/>
+        <attr name="basicTransparentColor600" format="reference|color"/>
+        <attr name="basicTransparentColor700" format="reference|color"/>
+        <attr name="basicTransparentColor800" format="reference|color"/>
+        <attr name="basicTransparentColor900" format="reference|color"/>
+        <attr name="basicTransparentColor1000" format="reference|color"/>
+
+        <attr name="mainBgColor" format="reference|color"/>
+        <attr name="mainBgColorTransparent" format="reference|color"/>
+        <attr name="colorPrimaryTransparent" format="reference|color"/>
+        <attr name="colorPrimaryDarkTransparent" format="reference|color"/>
+</resources>

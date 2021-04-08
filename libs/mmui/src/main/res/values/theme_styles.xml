@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MMTheme" parent="Theme.MaterialComponents.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">#1A1c0B</item>
+    </style>
+    <!--        <item name="android:windowFullscreen">false</item>-->
+    <!--        <item name="android:windowContentOverlay">@null</item>-->
+
+
+    <style name="CropImageTheme" parent="ActivityThemeLight">
+        <item name="windowNoTitle">false</item>
+        <item name="windowActionBar">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- Dark base activity theme -->
+    <style name="ActivityTheme.Primary.Base.Dark" parent="MMTheme">
+        <item name="basicColor50">@color/theme_dark_color_basic50</item>
+        <item name="basicColor100">@color/theme_dark_color_basic100</item>
+        <item name="basicColor200">@color/theme_dark_color_basic200</item>
+        <item name="basicColor300">@color/theme_dark_color_basic300</item>
+        <item name="basicColor400">@color/theme_dark_color_basic400</item>
+        <item name="basicColor500">@color/theme_dark_color_basic500</item>
+        <item name="basicColor600">@color/theme_dark_color_basic600</item>
+        <item name="basicColor700">@color/theme_dark_color_basic700</item>
+        <item name="basicColor800">@color/theme_dark_color_basic800</item>
+        <item name="basicColor900">@color/theme_dark_color_basic900</item>
+        <item name="basicColor1000">@color/theme_dark_color_basic1000</item>
+        <item name="basicColor1100">@color/theme_dark_color_basic1100</item>
+
+        <item name="textColor50">@color/theme_dark_color_text50</item>
+        <item name="textColor100">@color/theme_dark_color_text100</item>
+        <item name="textColor200">@color/theme_dark_color_text200</item>
+        <item name="textColor300">@color/theme_dark_color_text300</item>
+        <item name="textColor400">@color/theme_dark_color_text400</item>
+        <item name="textColor500">@color/theme_dark_color_text500</item>
+        <item name="textColor600">@color/theme_dark_color_text600</item>
+        <item name="textColor700">@color/theme_dark_color_text700</item>
+        <item name="textColor800">@color/theme_dark_color_text800</item>
+        <item name="textColor900">@color/theme_dark_color_text900</item>
+        <item name="textColor1000">@color/theme_dark_color_text1000</item>
+        <item name="textColor1100">@color/theme_dark_color_text1100</item>
+
+        <item name="basicBgColor1">@color/theme_dark_color_basicBg1</item>
+        <item name="basicBgColor2">@color/theme_dark_color_basicBg2</item>
+        <item name="basicBgColor3">@color/theme_dark_color_basicBg3</item>
+        <item name="basicBgColor4">@color/theme_dark_color_basicBg4</item>
+        <item name="basicBgColor5">@color/theme_dark_color_basicBg5</item>
+
+        <item name="basicTransparentColor100">@color/theme_dark_color_basicTransparent100</item>
+        <item name="basicTransparentColor200">@color/theme_dark_color_basicTransparent200</item>
+        <item name="basicTransparentColor300">@color/theme_dark_color_basicTransparent300</item>
+        <item name="basicTransparentColor400">@color/theme_dark_color_basicTransparent400</item>
+        <item name="basicTransparentColor500">@color/theme_dark_color_basicTransparent500</item>
+        <item name="basicTransparentColor600">@color/theme_dark_color_basicTransparent600</item>
+        <item name="basicTransparentColor700">@color/theme_dark_color_basicTransparent700</item>
+        <item name="basicTransparentColor800">@color/theme_dark_color_basicTransparent800</item>
+        <item name="basicTransparentColor900">@color/theme_dark_color_basicTransparent900</item>
+        <item name="basicTransparentColor1000">@color/theme_dark_color_basicTransparent1000</item>
+
+        <item name="mainBgColor">@color/theme_dark_color_basicBg2</item>
+        <item name="mainBgColorTransparent">@color/theme_dark_color_basicTransparentBg2</item>
+    </style>
+
+    <!--Light base activity theme-->
+    <style name="ActivityTheme.Primary.Base.Light" parent="MMTheme">
+        <item name="basicColor50">@color/theme_light_color_basic50</item>
+        <item name="basicColor100">@color/theme_light_color_basic100</item>
+        <item name="basicColor200">@color/theme_light_color_basic200</item>
+        <item name="basicColor300">@color/theme_light_color_basic300</item>
+        <item name="basicColor400">@color/theme_light_color_basic400</item>
+        <item name="basicColor500">@color/theme_light_color_basic500</item>
+        <item name="basicColor600">@color/theme_light_color_basic600</item>
+        <item name="basicColor700">@color/theme_light_color_basic700</item>
+        <item name="basicColor800">@color/theme_light_color_basic800</item>
+        <item name="basicColor900">@color/theme_light_color_basic900</item>
+        <item name="basicColor1000">@color/theme_light_color_basic1000</item>
+        <item name="basicColor1100">@color/theme_light_color_basic1100</item>
+
+        <item name="textColor50">@color/theme_light_color_text50</item>
+        <item name="textColor100">@color/theme_light_color_text100</item>
+        <item name="textColor200">@color/theme_light_color_text200</item>
+        <item name="textColor300">@color/theme_light_color_text300</item>
+        <item name="textColor400">@color/theme_light_color_text400</item>
+        <item name="textColor500">@color/theme_light_color_text500</item>
+        <item name="textColor600">@color/theme_light_color_text600</item>
+        <item name="textColor700">@color/theme_light_color_text700</item>
+        <item name="textColor800">@color/theme_light_color_text800</item>
+        <item name="textColor900">@color/theme_light_color_text900</item>
+        <item name="textColor1000">@color/theme_light_color_text1000</item>
+        <item name="textColor1100">@color/theme_light_color_text1100</item>
+
+        <item name="basicBgColor1">@color/theme_light_color_basicBg1</item>
+        <item name="basicBgColor2">@color/theme_light_color_basicBg2</item>
+        <item name="basicBgColor3">@color/theme_light_color_basicBg3</item>
+        <item name="basicBgColor4">@color/theme_light_color_basicBg4</item>
+        <item name="basicBgColor5">@color/theme_light_color_basicBg5</item>
+
+        <item name="basicTransparentColor100">@color/theme_light_color_basicTransparent100</item>
+        <item name="basicTransparentColor200">@color/theme_light_color_basicTransparent200</item>
+        <item name="basicTransparentColor300">@color/theme_light_color_basicTransparent300</item>
+        <item name="basicTransparentColor400">@color/theme_light_color_basicTransparent400</item>
+        <item name="basicTransparentColor500">@color/theme_light_color_basicTransparent500</item>
+        <item name="basicTransparentColor600">@color/theme_light_color_basicTransparent600</item>
+        <item name="basicTransparentColor700">@color/theme_light_color_basicTransparent700</item>
+        <item name="basicTransparentColor800">@color/theme_light_color_basicTransparent800</item>
+        <item name="basicTransparentColor900">@color/theme_light_color_basicTransparent900</item>
+        <item name="basicTransparentColor1000">@color/theme_light_color_basicTransparent1000</item>
+
+        <item name="mainBgColor">@color/theme_light_color_basicBg1</item>
+        <item name="mainBgColorTransparent">@color/theme_light_color_basicTransparentBg4</item>
+
+    </style>
+
+    <style name="ActivityThemeLight" parent="ActivityTheme.Primary.Base.Light">
+        <item name="android:windowBackground">@color/theme_light_color_basicBg4</item>
+    </style>
+
+    <style name="ActivityThemeDark" parent="ActivityTheme.Primary.Base.Dark">
+        <item name="android:windowBackground">@color/theme_dark_color_basicBg2</item>
+    </style>
+
+
+
+</resources>

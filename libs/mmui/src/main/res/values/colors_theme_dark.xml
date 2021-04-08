@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_dark_color_basic50">#FFFFFF</color>
+    <color name="theme_dark_color_basic100">#F7F9FC</color>
+    <color name="theme_dark_color_basic200">#EDF1F7</color>
+    <color name="theme_dark_color_basic300">#E4E9F2</color>
+    <color name="theme_dark_color_basic400">#C5CEE0</color>
+    <color name="theme_dark_color_basic500">#8F9BB3</color>
+    <color name="theme_dark_color_basic600">#4d4f58</color>
+    <color name="theme_dark_color_basic700">#434445</color>
+    <color name="theme_dark_color_basic800">#383738</color>
+    <color name="theme_dark_color_basic900">#302f30</color>
+    <color name="theme_dark_color_basic1000">#232326</color>
+    <color name="theme_dark_color_basic1100">#0c0c0c</color>
+    
+    <color name="theme_dark_color_basicBg1">#2e2e2e</color>
+    <color name="theme_dark_color_basicBg2">#222222</color>
+    <color name="theme_dark_color_basicBg3">#1a1a1a</color>
+    <color name="theme_dark_color_basicBg4">#141414</color>
+    <color name="theme_dark_color_basicBg5">#0c0c0c</color>
+
+    <color name="theme_dark_color_basicTransparentBg2">#d0222222</color>
+
+    <color name="theme_dark_color_basicTransparent100">#14222222</color>
+    <color name="theme_dark_color_basicTransparent200">#29222222</color>
+    <color name="theme_dark_color_basicTransparent300">#3D222222</color>
+    <color name="theme_dark_color_basicTransparent400">#52222222</color>
+    <color name="theme_dark_color_basicTransparent500">#8f8F9BB3</color>
+    <color name="theme_dark_color_basicTransparent600">#8f4d4f58</color>
+    <color name="theme_dark_color_basicTransparent700">#8F434445</color>
+    <color name="theme_dark_color_basicTransparent800">#aa1a1a1a</color>
+    <color name="theme_dark_color_basicTransparent900">#B8222222</color>
+    <color name="theme_dark_color_basicTransparent1000">#cc222222</color>
+
+    <color name="theme_dark_color_text50">@color/theme_dark_color_basic50</color>
+    <color name="theme_dark_color_text100">@color/theme_dark_color_basic100</color>
+    <color name="theme_dark_color_text200">@color/theme_dark_color_basic200</color>
+    <color name="theme_dark_color_text300">@color/theme_dark_color_basic300</color>
+    <color name="theme_dark_color_text400">@color/theme_dark_color_basic400</color>
+    <color name="theme_dark_color_text500">@color/theme_dark_color_basic500</color>
+    <color name="theme_dark_color_text600">@color/theme_dark_color_basic600</color>
+    <color name="theme_dark_color_text700">@color/theme_dark_color_basic700</color>
+    <color name="theme_dark_color_text800">@color/theme_dark_color_basic800</color>
+    <color name="theme_dark_color_text900">@color/theme_dark_color_basic900</color>
+    <color name="theme_dark_color_text1000">@color/theme_dark_color_basic1000</color>
+    <color name="theme_dark_color_text1100">@color/theme_dark_color_basic1100</color>
+    
+    
+</resources>

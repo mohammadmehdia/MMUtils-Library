@@ -1,4 +1,4 @@
-package ir.alizadeh.mmui.utils.bottomnavigation;
+package ir.alizadeh.mmui.bottomnavigation;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -9,14 +9,12 @@ import android.graphics.Path;
 import android.graphics.Point;
 import android.util.AttributeSet;
 
-import androidx.core.content.ContextCompat;
-
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-import ir.armiuni.hokm.R;
-import ir.armiuni.hokm.utils.Utils;
+import ir.alizadeh.mmui.R;
 
-public class CustomBottomNavigationView1 extends BottomNavigationView {
+
+public class CustomNavigationView extends BottomNavigationView {
 
     private Path mPath;
     private Paint mPaint;
@@ -24,6 +22,7 @@ public class CustomBottomNavigationView1 extends BottomNavigationView {
     /** the CURVE_CIRCLE_RADIUS represent the radius of the fab button */
     private int curveCircleRadius = 128 / 2;
     private int bgColor = Color.TRANSPARENT;
+    private int accentColor = Color.BLACK;
     // the coordinates of the first curve
     private Point mFirstCurveStartPoint = new Point();
     private Point mFirstCurveEndPoint = new Point();
@@ -39,19 +38,19 @@ public class CustomBottomNavigationView1 extends BottomNavigationView {
     private int mNavigationBarWidth;
     private int mNavigationBarHeight;
 
-    public CustomBottomNavigationView1(Context context) {
+    public CustomNavigationView(Context context) {
         super(context);
         initAttrs(context, null , 0);
         init();
     }
 
-    public CustomBottomNavigationView1(Context context, AttributeSet attrs) {
+    public CustomNavigationView(Context context, AttributeSet attrs) {
         super(context, attrs);
         initAttrs(context, attrs, 0);
         init();
     }
 
-    public CustomBottomNavigationView1(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CustomNavigationView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         initAttrs(context, attrs, defStyleAttr);
         init();
@@ -63,6 +62,7 @@ public class CustomBottomNavigationView1 extends BottomNavigationView {
             TypedArray ta = context.getTheme().obtainStyledAttributes(attrs, R.styleable.BottomNavigationEx, defStyleAttr, 0);
             curveCircleRadius = ta.getDimensionPixelSize(R.styleable.BottomNavigationEx_nbavex_curveRadius, curveCircleRadius);
             bgColor = ta.getColor(R.styleable.BottomNavigationEx_nbavex_bgColor, Color.TRANSPARENT);
+            accentColor = ta.getColor(R.styleable.BottomNavigationEx_nbavex_accentColor, Color.BLACK);
             ta.recycle();
         }
     }
@@ -72,9 +72,8 @@ public class CustomBottomNavigationView1 extends BottomNavigationView {
         mPath = new Path();
         mPaint = new Paint();
         mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
-        int colorAccent = Utils.getThemeColor(getContext(), R.attr.colorAccent, ContextCompat.getColor(getContext(), R.color.colorAccent));
-        mPaint.setColor(colorAccent);
-        setBackgroundColor(Color.TRANSPARENT);
+        mPaint.setColor(accentColor);
+        setBackgroundColor(bgColor);
     }
 
     @Override

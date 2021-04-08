@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="theme_light_color_basic1100">#FFFFFF</color>
+    <color name="theme_light_color_basic1000">#FFFFFF</color>
+    <color name="theme_light_color_basic900">#F7F9FC</color>
+    <color name="theme_light_color_basic800">#EDF1F7</color>
+    <color name="theme_light_color_basic700">#C5CEE0</color>
+    <color name="theme_light_color_basic600">#878787</color>
+    <color name="theme_light_color_basic500">#6B6B67</color>
+    <color name="theme_light_color_basic400">#333333</color>
+    <color name="theme_light_color_basic300">#222232</color>
+    <color name="theme_light_color_basic200">#1A2138</color>
+    <color name="theme_light_color_basic100">#1A1C1B</color>
+    <color name="theme_light_color_basic50">#101426</color>
+
+    <color name="theme_light_color_basicBg1">#FFFFFF</color>
+    <color name="theme_light_color_basicBg2">#F7F9FC</color>
+    <color name="theme_light_color_basicBg3">#f0f2f7</color>
+    <color name="theme_light_color_basicBg4">#E4E9F2</color>
+    <color name="theme_light_color_basicBg5">#D4D9E0</color>
+
+    <color name="theme_light_color_basicTransparentBg4">#9aE4E9F2</color>
+
+
+    <color name="theme_light_color_basicTransparent100">#148F9BB3</color>
+    <color name="theme_light_color_basicTransparent200">#298F9BB3</color>
+    <color name="theme_light_color_basicTransparent300">#3D8F9BB3</color>
+    <color name="theme_light_color_basicTransparent400">#528F9BB3</color>
+    <color name="theme_light_color_basicTransparent500">#668F9BB3</color>
+    <color name="theme_light_color_basicTransparent600">#7A8F9BB3</color>
+    <color name="theme_light_color_basicTransparent700">#6DC6C6C6</color>
+    <color name="theme_light_color_basicTransparent800">#A38F9BB3</color>
+    <color name="theme_light_color_basicTransparent900">#B88F9BB3</color>
+    <color name="theme_light_color_basicTransparent1000">#c0f7F9FC</color>
+    <color name="theme_light_color_basicTransparent1100">#c0f7F9FC</color>
+
+    <color name="theme_light_color_text50">@color/theme_light_color_basic50</color>
+    <color name="theme_light_color_text100">@color/theme_light_color_basic100</color>
+    <color name="theme_light_color_text200">@color/theme_light_color_basic200</color>
+    <color name="theme_light_color_text300">@color/theme_light_color_basic300</color>
+    <color name="theme_light_color_text400">@color/theme_light_color_basic400</color>
+    <color name="theme_light_color_text500">@color/theme_light_color_basic500</color>
+    <color name="theme_light_color_text600">@color/theme_light_color_basic600</color>
+    <color name="theme_light_color_text700">@color/theme_light_color_basic700</color>
+    <color name="theme_light_color_text800">@color/theme_light_color_basic800</color>
+    <color name="theme_light_color_text900">@color/theme_light_color_basic900</color>
+    <color name="theme_light_color_text1000">@color/theme_light_color_basic1000</color>
+    <color name="theme_light_color_text1100">@color/theme_light_color_basic1100</color>
+    
+</resources>

@@ -40,6 +40,7 @@
     <declare-styleable name="BottomNavigationEx">
         <attr name="nbavex_curveRadius" format="dimension"/>
         <attr name="nbavex_bgColor" format="color"/>
+        <attr name="nbavex_accentColor" format="color"/>
     </declare-styleable>
     <dimen name="nbavex_curve_radius_default">40dp</dimen>
 

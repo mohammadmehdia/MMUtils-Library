@@ -18,12 +18,12 @@
         app:srcCompat="@drawable/ic_arrow_down"
         />
 
-    <ir.armiuni.hokm.ui.helper.MyTextView
+    <ir.alizadeh.mmui.tv.MyTextView
         android:id="@+id/tv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textColor="@color/msv_text_color_default"
-        android:textSize="@dimen/text_size_xl"
+        android:textSize="@dimen/text_xl"
         android:lines="1" android:maxLines="1"
         android:layout_gravity="start|center_vertical"
         android:gravity="start|center_vertical"
