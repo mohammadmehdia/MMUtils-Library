@@ -1,4 +1,4 @@
-package ir.alizadeh.mmui.glide.glide;
+package ir.alizadeh.mmui.glide;
 
 import android.graphics.drawable.Drawable;
 

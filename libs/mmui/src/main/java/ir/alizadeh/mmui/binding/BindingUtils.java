@@ -1,5 +1,6 @@
 package ir.alizadeh.mmui.binding;
 
+import android.animation.AnimatorInflater;
 import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.graphics.drawable.Drawable;
@@ -13,6 +14,7 @@ import android.widget.ProgressBar;
 
 import androidx.appcompat.widget.AppCompatImageView;
 import androidx.appcompat.widget.AppCompatTextView;
+import androidx.core.view.ViewCompat;
 import androidx.databinding.BindingAdapter;
 
 import com.bumptech.glide.Glide;
@@ -20,12 +22,14 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.bumptech.glide.load.resource.bitmap.CircleCrop;
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;
 import com.bumptech.glide.request.RequestOptions;
+import com.google.android.material.appbar.AppBarLayout;
 import com.thekhaeng.pushdownanim.PushDownAnim;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import ir.alizadeh.mmui.glide.glide.GlideNullTransition;
+import ir.alizadeh.mmui.R;
+import ir.alizadeh.mmui.glide.GlideNullTransition;
 import ir.alizadeh.mmui.iv.AspectRatioImageView;
 import ir.alizadeh.mmui.utils.ProgressBarAnimation;
 import ir.alizadeh.mmui.utils.Utils;
@@ -104,12 +108,12 @@ public class BindingUtils {
 
     @BindingAdapter("imageUrlCircleCrop")
     public static void bindImageUrlCircleCrop(AppCompatImageView imageView, String imageUrl) {
-            Glide.with(imageView.getContext())
-                    .load(mediaUrl(imageUrl))
-                    .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
-                    .skipMemoryCache(false)
-                    .apply(RequestOptions.bitmapTransform(new CircleCrop()))
-                    .into(imageView);
+        Glide.with(imageView.getContext())
+                .load(mediaUrl(imageUrl))
+                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
+                .skipMemoryCache(false)
+                .apply(RequestOptions.bitmapTransform(new CircleCrop()))
+                .into(imageView);
     }
 
     @BindingAdapter("webHtml")
@@ -201,6 +205,23 @@ public class BindingUtils {
     @BindingAdapter("bgColorInt")
     public static void bindBgColor(View view, int color) {
         view.setBackgroundColor(color);
+    }
+
+    @BindingAdapter("appbar_elevation")
+    public static void setAppbarElevation(AppBarLayout appBarLayout, boolean en) {
+        try {
+            if(appBarLayout != null) {
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+                    if(en) {
+                        appBarLayout.setStateListAnimator(AnimatorInflater.loadStateListAnimator(appBarLayout.getContext(), R.animator.elevation_enable));
+                    } else {
+                        appBarLayout.setStateListAnimator(AnimatorInflater.loadStateListAnimator(appBarLayout.getContext(), R.animator.elevation_disable));
+                    }
+                } else {
+                    ViewCompat.setElevation(appBarLayout, !en ? 0 : appBarLayout.getResources().getDimensionPixelSize(R.dimen.sm));
+                }
+            }
+        } catch (Exception ignored){}
     }
 
 }

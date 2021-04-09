@@ -1,6 +1,5 @@
 package ir.alizadeh.mmui.spinnerview;
 
-import android.content.ContentProvider;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;

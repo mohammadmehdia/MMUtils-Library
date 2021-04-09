@@ -26,13 +26,14 @@ android {
         }
     }
 
-    dexOptions {
-        javaMaxHeapSize "4608m"
-    }
-
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
     }
 
 }
@@ -55,7 +56,8 @@ dependencies {
     implementation ( 'com.github.thekhaeng:pushdown-anim-click:1.1.1' ){
         exclude group: 'com.android.support'
     }
-
+    // lingver -> manage locale and language
+    implementation "com.github.YarikSOffice:lingver:1.2.2"
     // glide
     implementation 'com.github.bumptech.glide:glide:4.11.0'
     annotationProcessor 'com.github.bumptech.glide:compiler:4.11.0'
