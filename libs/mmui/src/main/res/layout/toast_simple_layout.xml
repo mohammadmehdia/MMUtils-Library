@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:padding="@dimen/lg"
-    android:textSize="@dimen/text_size_lg"
+    android:textSize="@dimen/text_lg"
     android:gravity="center"
-    android:textColor="@color/brand_bs_light"
+    android:textColor="@color/md_white_1000"
     android:background="@drawable/toast_simple_bg"
     />
